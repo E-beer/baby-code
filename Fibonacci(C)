@@ -6,7 +6,7 @@ int f[20]={1,1};
 for(i=2;i<20;i++)
 {
 if(i%5==0) print("\n")
-print('%12d",f[i]);
+print("%12d",f[i]);
 }
 print("\n");
 return 0;
